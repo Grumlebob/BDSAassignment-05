@@ -38,6 +38,7 @@ namespace GildedRose
                         SellIn = 5,
                         Quality = 49
                     },
+                    //works
                     new Item { Name = "Conjured Mana Cake", SellIn = 3, Quality = 6 }
                 }
             };
