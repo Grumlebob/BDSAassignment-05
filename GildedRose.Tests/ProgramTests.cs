@@ -8,6 +8,8 @@ public class ProgramTests
         p = new Program();
         p.Items = new List<Item>();
     }
+    
+    
     [Fact]
     public void QualityDegradesTwiceAsFastWhenPassedSellBy()
     {
@@ -113,4 +115,13 @@ public class ProgramTests
         p.Items[1].Quality.Should().Be(14);
         
     }
+    
+    [Fact]
+    public void MainMethodTest()
+    {
+        Program.Main(new string[0] { });
+
+        true.Should().BeTrue();
+    }
+    
 }
